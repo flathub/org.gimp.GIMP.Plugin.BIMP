@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/v2.4.tar.gz",
-                    "sha256": "4fb9db8c86679fe6240802bd20c060237d48e07d463c136b4bae99c6793a5508"
+                    "url": "https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/v2.5.tar.gz",
+                    "sha256": "a2e1d3e2eeb81f87fa8ed56027b7015a42bf26bf6f32e73d2777c07750ca89ef"
                 },
                 {
                     "type": "file",
