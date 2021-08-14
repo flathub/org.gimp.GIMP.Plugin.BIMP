@@ -19,6 +19,7 @@
             "post-install": [
                 "install -d ${FLATPAK_DEST}/plug-ins/bimp/",
                 "install -Dm755 bin/bimp ${FLATPAK_DEST}/plug-ins/bimp/",
+                "strip ${FLATPAK_DEST}/plug-ins/bimp/bimp",
                 "cp -Rf bimp-locale/ ${FLATPAK_DEST}/plug-ins/bimp/",
                 "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo org.gimp.GIMP.Plugin.BIMP.metainfo.xml",
                 "appstream-compose --basename=org.gimp.GIMP.Plugin.BIMP --prefix=${FLATPAK_DEST} --origin=flatpak org.gimp.GIMP.Plugin.BIMP",
@@ -27,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/v2.5.tar.gz",
-                    "sha256": "a2e1d3e2eeb81f87fa8ed56027b7015a42bf26bf6f32e73d2777c07750ca89ef"
+                    "url": "https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/v2.6.tar.gz",
+                    "sha256": "a8abef0f432e9fc8188dc4e8bdceab9a822641f8b8119f4feb70cc51457cf884"
                 },
                 {
                     "type": "file",
