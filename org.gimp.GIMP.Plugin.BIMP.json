@@ -3,9 +3,8 @@
     "branch": "2-40",
     "runtime": "org.gimp.GIMP",
     "runtime-version": "stable",
-    "sdk": "org.gnome.Sdk//44",
+    "sdk": "org.gnome.Sdk//46",
     "build-extension": true,
-    "appstream-compose": false,
     "build-options": {
         "prefix": "/app/extensions/BIMP"
     },
@@ -22,7 +21,6 @@
                 "strip ${FLATPAK_DEST}/plug-ins/bimp/bimp",
                 "cp -Rf bimp-locale/ ${FLATPAK_DEST}/plug-ins/bimp/",
                 "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo org.gimp.GIMP.Plugin.BIMP.metainfo.xml",
-                "appstream-compose --basename=org.gimp.GIMP.Plugin.BIMP --prefix=${FLATPAK_DEST} --origin=flatpak org.gimp.GIMP.Plugin.BIMP",
                 "install -Dm644 -t $FLATPAK_DEST/share/licenses/bimp LICENSE"
             ],
             "sources": [

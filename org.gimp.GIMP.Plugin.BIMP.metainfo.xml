@@ -3,11 +3,15 @@
   <id>org.gimp.GIMP.Plugin.BIMP</id>
   <extends>org.gimp.GIMP</extends>
   <name>BIMP</name>
-  <summary>Batch Image Manipulation Program, a GIMP plugin to apply a set of manipulations to an entire group of images!</summary>
+  <summary>Batch Image Manipulation Program GIMP plugin</summary>
+  <description>
+    <p>Batch Image Manipulation Program, a GIMP plugin to apply a set
+    of manipulations to an entire group of images!</p>
+  </description>
   <url type="homepage">https://alessandrofrancesconi.it/projects/bimp/</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
-  <updatecontact>hub_AT_figuiere.net</updatecontact>
+  <update_contact>hub_AT_figuiere.net</update_contact>
   <releases>
     <release date="2021-08-07" version="2.6"/>
     <release date="2021-01-07" version="2.5"/>
